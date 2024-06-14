@@ -1,0 +1,34 @@
+{
+    "name": "SOURCE DREAM",
+    "description": "سورس دريم لصنع بوتات حمايه بجميع المميزات❤️",
+    "repository": "https://github.com/Elnagar8",
+    "logo": "https://telegra.ph/file/988bef30bca1baaca1669.jpg",
+    "keywords": [
+    "python3",
+    "telegram",
+    "bot",
+    "mongodb",
+    "Group-Manager-bot",
+    "pyrogram"
+    ],
+    "website": "https://t.me/FA9SH",
+    "success_url": "https://t.me/S150D",
+    "stack": "container",
+    "env": {
+        "TOKEN": {
+            "description": "ضع توكن بوتك  @BotFather",
+            "required": true
+        },
+        "SESSION": {
+            "description": "حط جلسة البايروجرام",
+            "required": true
+        },
+        "sudoers": {
+            "description": "حط ايدي مطور البوت",
+            "required": true
+        }
+    }
+}
+
+
+
